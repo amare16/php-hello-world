@@ -37,6 +37,5 @@
 $("#demo").html(obj.video.value);
             }
         </script>
-
     </body>
 </html>
