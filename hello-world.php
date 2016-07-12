@@ -10,4 +10,5 @@
                     return "Hello, World!";
                 }
             }
+            echo helloWorld("Amare");
 ?>
