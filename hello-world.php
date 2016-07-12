@@ -3,12 +3,13 @@
             // This is only a SKELETON file for the "Hello World" exercise.
             // It's been provided as a convenience to get you started writing code faster.
             //
-            function helloWorld($name) {
-                if ($name == "Alice") {
-                    return "Hello Alice";
-                } else {
-                    return "Hello, World!";
-                }
+function helloWorld($name) {
+            if ($name == "") {
+                        echo "Helll, World!";
+            } else {
+                        echo "Hello," . "  " . $name;
             }
+}
+helloWorld("Alice");
 
 ?>
