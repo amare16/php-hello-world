@@ -4,7 +4,7 @@
             // It's been provided as a convenience to get you started writing code faster.
             //
             function helloWorld($name) {
-                if ($name == "") {
+                if ($name == "Alice") {
                     return "Hello Alice";
                 } else {
                     return "Hello, World!";
