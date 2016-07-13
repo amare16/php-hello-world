@@ -5,7 +5,7 @@
             //
 function helloWorld($name = "") {
             if ($name == "") {
-                        return "Helll, World!";
+                        return "Hello, World!";
             } else {
                         return "Hello," . "  " . $name;
             }
