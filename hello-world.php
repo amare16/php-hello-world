@@ -5,11 +5,11 @@
             //
 function helloWorld($name) {
             if ($name == "") {
-                        echo "Helll, World!";
+                        return "string"; "Helll, World!";
             } else {
-                        echo "Hello," . "  " . $name;
+                        return "Hello," . "  " . $name;
             }
 }
-helloWorld("Alice");
+
 
 ?>
